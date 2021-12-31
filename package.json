@@ -6,6 +6,13 @@
     "type": "git",
     "url": "git+https://github.com/edx/brand-openedx.git"
   },
+  "dependencies": {
+    "edutech-core-skin": "edutech-groove/core-skin#feature/EDT-1097"
+  },
+  "scripts": {
+    "build": "yarn upgrade edutech-core-skin && yarn copy",
+    "copy": "rm -rf ./skin && cp -r ./node_modules/edutech-core-skin/skin ./"
+  },
   "author": "edX",
   "license": "GPL-3.0-or-later",
   "bugs": {
