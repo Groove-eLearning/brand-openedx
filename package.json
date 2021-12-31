@@ -7,7 +7,7 @@
     "url": "git+https://github.com/edx/brand-openedx.git"
   },
   "scripts": {
-    "build": "yarn install && yarn upgrade edutech-core-skin && yarn copy",
+    "build": "yarn install && yarn copy",
     "copy": "rm -rf ./skin && cp -r ./node_modules/edutech-core-skin/skin ./"
   },
   "author": "edX",
