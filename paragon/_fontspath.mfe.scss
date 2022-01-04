@@ -1,0 +1,18 @@
+// Please DO NOT delete this file. 
+// It is used for theme styling in LMS/CMS while build docker image
+
+// Override font variables by getting from Tutor MFE
+$font1RegularPath: './fonts/Roboto-Regular.woff';
+$font1SemiBoldPath: './fonts/Roboto-Medium.woff';
+$font1BoldPath: './fonts/Roboto-Bold.woff';
+$font1ExtraBoldPath: './fonts/Roboto-Black.woff';
+$font2Path: './fonts/Roboto-Black.woff';
+
+$font3MediumPath: './fonts/HelveticaNeue-Medium.woff';
+$font3BoldPath: './fonts/HelveticaNeue-Bold.woff';
+$font3ThinPath: './fonts/HelveticaNeue-Thin.woff';
+$font3LightPath: './fonts/HelveticaNeue-Light.woff';
+$font4Path: './fonts/TimesNewRoman.woff';
+$font4BoldPath: './fonts/TimesNewRoman-Bold.woff';
+$font4BoldItalicPath: './fonts/TimesNewRoman-BoldItalic.woff';
+$font4ItalicPath: './fonts/TimesNewRoman-Italic.woff';

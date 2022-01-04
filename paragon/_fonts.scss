@@ -1,5 +1,107 @@
 // Add any font imports or definitions here
 
-@import '../skin/base/skin';
-@import '../skin/base/fonts.mfe';
-@import '../skin/brand/fonts';
+@import './skin';
+
+@font-face {
+    font-family: $fontFamily1;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("#{$font1RegularPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily1;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("#{$font1SemiBoldPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily1;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("#{$font1BoldPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily1;
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("#{$font1ExtraBoldPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily2;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("#{$font2Path}") format("woff");
+}
+
+@font-face {
+    font-family: $fontFamily3;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("#{$font3MediumPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily3;
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url("#{$font3ThinPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily3;
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url("#{$font3LightPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily3;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("#{$font3BoldPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily4;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("#{$font4Path}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily4;
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("#{$font4ItalicPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily4;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("#{$font4BoldPath}") format('woff');
+}
+
+@font-face {
+    font-family: $fontFamily4;
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("#{$font4BoldItalicPath}") format('woff');
+}
