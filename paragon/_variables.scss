@@ -3,14 +3,49 @@
 
 @import './skin';
 
-$primary: $primaryColor1;
-$secondary: $secondaryColor1;
-$brand: $primaryColor1;
-$success: $successColor;
-$info: $infoColor;
-$danger: $dangerColor;
-$warning: $warningColor;
-$light: $lightColor;
-$dark: $darkColor;
-$link-color: $linkColor;
+$fontFamily1: 'Roboto' !default;
+$fontFamily2: 'Roboto' !default;
+$fontFamily3: 'HelveticaNeue' !default;
+$fontFamily4: 'TimesNewRoman' !default;
+
+$primary: #4D7EFB !default;
+$secondary: #281E4D !default;
+$brand: #4D7EFB !default;
+
+$success: #38C976 !default;
+$info: #33A5EE !default;
+$danger: #E34242 !default;
+$warning: #FFA850 !default;
+
+$light: #FFFFFF !default;
+$dark: #24305D !default;
+
+$body-color: #24305D !default;
+$border-color: #D3D8ED !default;
+$border-radius: 0.25rem !default;
+
+$link-color: #0094e3 !default;
+
 $font-family-sans-serif: $fontFamily2;
+$font-family-monospace: $fontFamily2;
+
+$font-size-base: 0.938rem !default;
+
+$h1-font-size: 1.75rem !default;
+$h2-font-size: 1.5rem !default;
+$h3-font-size: 1.063rem !default;
+$h4-font-size: 0.938rem !default;
+$h5-font-size: 0.938rem !default;
+$h6-font-size: 0.938rem !default;
+
+$h1-mobile-font-size: $h1-font-size !default;
+$h2-mobile-font-size: $h2-font-size !default;
+$h3-mobile-font-size: $h3-font-size !default;
+$h4-mobile-font-size: $h4-font-size !default;
+$h5-mobile-font-size: $h5-font-size !default;
+$h6-mobile-font-size: $h6-font-size !default;
+
+$headings-color: $body-color !default;
+
+$input-btn-font-size: 0.938rem !default;
+$input-btn-focus-box-shadow:  0 0 6px $input-btn-focus-color !default;
