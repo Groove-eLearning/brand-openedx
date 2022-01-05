@@ -1,2 +1,16 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/edx/paragon/blob/master/scss/core/ for reference
+
+@import './skin';
+
+$primary: $primaryColor1;
+$secondary: $secondaryColor1;
+$brand: $primaryColor1;
+$success: $successColor;
+$info: $infoColor;
+$danger: $dangerColor;
+$warning: $warningColor;
+$light: $lightColor;
+$dark: $darkColor;
+$link-color: $linkColor;
+$font-family-sans-serif: $fontFamily2;

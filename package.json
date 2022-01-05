@@ -1,17 +1,21 @@
 {
-  "name": "@edx/brand-openedx",
-  "version": "1.0.0-semantically-released",
+  "name": "@grooveelearning/brand-openedx",
+  "version": "1.0.0",
   "description": "The default branding and SASS theme package containing for Open edX applications. This package is designed to be copied and customized.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edx/brand-openedx.git"
+    "url": "git+https://github.com/Groove-eLearning/brand-openedx.git"
   },
-  "author": "edX",
+  "scripts": {
+    "build": "yarn install && yarn copy",
+    "copy": "rm -rf ./skin && cp -r ./node_modules/edutech-core-skin/skin ./"
+  },
+  "author": "Groove-eLearning",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/edx/brand-openedx/issues"
+    "url": "https://github.com/Groove-eLearning/brand-openedx/issues"
   },
-  "homepage": "https://github.com/edx/brand-openedx#readme",
+  "homepage": "https://github.com/Groove-eLearning/brand-openedx#readme",
   "publishConfig": {
     "access": "public"
   }
