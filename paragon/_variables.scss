@@ -1,6 +1,8 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/edx/paragon/blob/master/scss/core/ for reference
 
+// GENERIC VARIABLES
+
 $fontFamily1: 'Roboto' !default;
 $fontFamily2: 'Roboto' !default;
 $fontFamily3: 'HelveticaNeue' !default;
@@ -18,12 +20,23 @@ $warning: #FFA850 !default;
 $light: #FFFFFF !default;
 $dark: #24305D !default;
 
-$body-color: #24305D !default;
+$body-color: $dark !default;
 $border-color: #D3D8ED !default;
 $border-radius: 0.25rem !default;
-$input-border-color: $border-color !default;
+$text-muted: #ACB1CA !default;
 
 $link-color: #0094e3 !default;
+
+
+$primary-100: mix(white, $primary, 87%) !default;
+$secondary-100: mix(white, $secondary, 87%) !default;
+$brand-100: mix(white, $brand, 87%) !default;
+$success-100: mix(white, $success, 87%) !default;
+$info-100: mix(white, $info, 87%) !default;
+$warning-100: mix(white, $warning, 87%) !default;
+$danger-100: mix(white, $danger, 87%) !default;
+$light-100: mix(white, $light, 87%) !default;
+$dark-100: mix(white, $dark, 87%) !default;
 
 $font-family-sans-serif: $fontFamily2;
 $font-family-monospace: $fontFamily2;
@@ -47,4 +60,19 @@ $h6-mobile-font-size: $h6-font-size !default;
 $headings-color: $body-color !default;
 
 $input-btn-font-size: 0.938rem !default;
-$input-btn-focus-box-shadow:  0 0 6px $primary !default;
+$input-btn-focus-box-shadow: 0 0 6px $primary !default;
+
+
+// FORM VARIABLES
+
+$input-border-color: $border-color !default;
+$input-color: $body-color !default;
+
+
+// ALERT
+
+$alert-padding-y: 0.625rem !default;
+$alert-padding-x: 0.938rem !default;
+$alert-title-color: $body-color !default;
+$alert-box-shadow: none !default;
+$alert-content-color: $body-color !default;
