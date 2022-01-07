@@ -57,10 +57,18 @@ $input-border-color: $border-color !default;
 $input-color: $body-color !default;
 
 
-// ALERT
+// ALERT VARIABLES
 
 $alert-padding-y: 0.625rem !default;
 $alert-padding-x: 0.938rem !default;
 $alert-title-color: $body-color !default;
 $alert-box-shadow: none !default;
 $alert-content-color: $body-color !default;
+
+
+// DROPDOWN VARIABLES
+
+$dropdown-link-color:               $body-color !default;
+$dropdown-link-hover-color:         $component-active-color !default;
+$dropdown-link-hover-bg:            $light-200 !default;
+$dropdown-item-padding-y:           .5rem !default;
