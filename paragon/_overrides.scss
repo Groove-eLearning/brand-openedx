@@ -16,3 +16,12 @@
         }
     }
 }
+
+
+// NAVS
+
+.nav-link {
+    @include hover-focus() {
+      color: $primary;
+    }
+  }
