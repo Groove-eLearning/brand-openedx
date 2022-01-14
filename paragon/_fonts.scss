@@ -1,7 +1,6 @@
 // Add any font imports or definitions here
-
-@import './skin';
 @import './fontspath.mfe';
+@import './variables';
 
 @font-face {
     font-family: $fontFamily1;
