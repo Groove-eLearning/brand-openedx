@@ -68,10 +68,16 @@ $alert-content-color: $body-color !default;
 
 // DROPDOWN VARIABLES
 
-$dropdown-link-color:               $body-color !default;
-$dropdown-link-hover-color:         $primary !default;
-$dropdown-item-padding-y:           .5rem !default;
+$dropdown-link-color: $body-color !default;
+$dropdown-link-hover-color: $primary !default;
+$dropdown-item-padding-y: .5rem !default;
+
 
 // NAVS VARIABLES
 
-$nav-link-color:                    $body-color !default;
+$nav-link-color: $body-color !default;
+
+
+// COLLAPSIBLE
+
+$collapsible-card-body-spacer-left: 2rem !default;

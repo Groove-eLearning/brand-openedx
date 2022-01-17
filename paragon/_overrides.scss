@@ -24,4 +24,50 @@
     @include hover-focus() {
       color: $primary;
     }
+}
+
+
+// DATATABLE
+
+$data-table-box-shadow: none !default;
+$data-table-cell-padding: 0.75rem 1rem !default;
+$table-cell-padding: 1rem !default;
+
+.pgn__data-table-wrapper {
+  border-radius: 0;
+  box-shadow: $data-table-box-shadow;
+
+  > :first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
+
+  > :last-child {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+.pgn__data-table {
+    border: 1px solid $border-color;
+
+  &.is-striped tr:nth-child(even) {
+    background-color: transparent;
+  }
+
+  th {
+    background-color: $secondary-100;
+    padding: $data-table-cell-padding;
+    border: 1px solid $border-color;
+  }
+
+  td {
+    padding: $table-cell-padding;
+    line-height: inherit;
+    border: 1px solid $border-color;
+  }
+
+  & tr.is-selected {
+    background-color: $info-100 !important;
+  }
+}
