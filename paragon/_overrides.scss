@@ -4,12 +4,13 @@
 
 // ALERT
 
-@each $color, $value in $theme-colors {
+@each $color,
+$value in $theme-colors {
     .alert-#{$color} {
         color: $value;
         background-color: theme-color($color, "background");
         border-color: $value;
-    
+
         .alert-icon,
         svg {
             color: $value;
@@ -22,48 +23,50 @@
 
 .nav-link {
     @include hover-focus() {
-      color: $primary;
+        color: $primary;
     }
 }
 
 
 // DATATABLE
 
-.pgn__data-table-wrapper {
-  border-radius: 0;
-  box-shadow: $data-table-box-shadow;
+.pgn__data-table-layout-wrapper {
+    .pgn__data-table-wrapper {
+        border-radius: 0;
+        box-shadow: $data-table-box-shadow;
 
-  > :first-child {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-  }
+        > :first-child {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
 
-  > :last-child {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-  }
-}
+        > :last-child {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
 
-.pgn__data-table {
-    border: 1px solid $border-color;
+    .pgn__data-table {
+        border: 1px solid $border-color;
 
-  &.is-striped tr:nth-child(even) {
-    background-color: transparent;
-  }
+        &.is-striped tr:nth-child(even) {
+            background-color: transparent;
+        }
 
-  th {
-    background-color: $secondary-200;
-    padding: $data-table-cell-padding;
-    border: 1px solid $border-color;
-  }
+        th {
+            background-color: $secondary-100;
+            padding: $data-table-cell-padding;
+            border: 1px solid $border-color;
+        }
 
-  td {
-    padding: $table-cell-padding;
-    line-height: inherit;
-    border: 1px solid $border-color;
-  }
+        td {
+            padding: $table-cell-padding;
+            line-height: inherit;
+            border: 1px solid $border-color;
+        }
 
-  & tr.is-selected {
-    background-color: $info-100 !important;
-  }
+        & tr.is-selected {
+            background-color: $info-100 !important;
+        }
+    }
 }
