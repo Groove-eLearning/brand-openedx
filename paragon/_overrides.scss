@@ -29,10 +29,6 @@
 
 // DATATABLE
 
-$data-table-box-shadow: none !default;
-$data-table-cell-padding: 0.75rem 1rem !default;
-$table-cell-padding: 1rem !default;
-
 .pgn__data-table-wrapper {
   border-radius: 0;
   box-shadow: $data-table-box-shadow;
@@ -56,7 +52,7 @@ $table-cell-padding: 1rem !default;
   }
 
   th {
-    background-color: $secondary-100;
+    background-color: $secondary-200;
     padding: $data-table-cell-padding;
     border: 1px solid $border-color;
   }
