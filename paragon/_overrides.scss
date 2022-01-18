@@ -31,6 +31,8 @@ $value in $theme-colors {
 // DATATABLE
 
 .pgn__data-table-layout-wrapper {
+    overflow-x: auto;
+
     .pgn__data-table-wrapper {
         border-radius: 0;
         box-shadow: $data-table-box-shadow;
