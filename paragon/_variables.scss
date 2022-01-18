@@ -29,6 +29,13 @@ $link-color: #0094e3 !default;
 $font-family-sans-serif: $fontFamily2;
 $font-family-monospace: $fontFamily2;
 
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-semi-bold: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+
 $font-size-base: 0.938rem !default;
 
 $h1-font-size: 1.75rem !default;
@@ -88,7 +95,6 @@ $collapsible-card-body-spacer-left: 2rem !default;
 $data-table-box-shadow: none !default;
 $data-table-cell-padding: 0.75rem 1rem !default;
 $table-cell-padding: 1rem !default;
-
 
 
 // BADGES
