@@ -29,6 +29,13 @@ $link-color: #0094e3 !default;
 $font-family-sans-serif: $fontFamily2;
 $font-family-monospace: $fontFamily2;
 
+$font-weight-lighter: lighter !default;
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-semi-bold: 500 !default;
+$font-weight-bold: 700 !default;
+$font-weight-bolder: bolder !default;
+
 $font-size-base: 0.938rem !default;
 
 $h1-font-size: 1.75rem !default;
@@ -68,10 +75,32 @@ $alert-content-color: $body-color !default;
 
 // DROPDOWN VARIABLES
 
-$dropdown-link-color:               $body-color !default;
-$dropdown-link-hover-color:         $primary !default;
-$dropdown-item-padding-y:           .5rem !default;
+$dropdown-link-color: $body-color !default;
+$dropdown-link-hover-color: $primary !default;
+$dropdown-item-padding-y: .5rem !default;
+
 
 // NAVS VARIABLES
 
-$nav-link-color:                    $body-color !default;
+$nav-link-color: $body-color !default;
+
+
+// COLLAPSIBLE
+
+$collapsible-card-body-spacer-left: 2rem !default;
+
+
+// DATATABLE
+
+$data-table-box-shadow: none !default;
+$data-table-cell-padding: 0.75rem 1rem !default;
+$table-cell-padding: 1rem !default;
+
+
+// BADGES
+
+$badge-font-size:                   80% !default;
+$badge-font-weight:                 $font-weight-normal !default;
+$badge-padding-y:                   .25rem !default;
+$badge-padding-x:                   .5rem !default;
+$badge-border-radius:               .25rem !default;
