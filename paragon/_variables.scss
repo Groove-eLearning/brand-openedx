@@ -57,6 +57,168 @@ $headings-color: $body-color !default;
 $input-btn-font-size: 0.938rem !default;
 $input-btn-focus-box-shadow: 0 0 6px $primary !default;
 
+$white:    #fff !default;
+$gray-100: #ebebeb !default;
+$gray-200: #cccccc !default;
+$gray-300: #adadad !default;
+$gray-400: #8f8f8f !default;
+$gray-500: #707070 !default;
+$gray-600: #5c5c5c !default;
+$gray-700: #454545 !default;
+$gray-800: #333333 !default;
+$gray-900: #212529 !default;
+$black:    #000 !default;
+
+$grays: () !default;
+$grays: map-merge(
+  (
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900
+  ),
+  $grays
+);
+
+
+$blue: #23419f !default;
+$red: #C32D3A !default;
+$yellow: #ffd900 !default;
+$green: #178253 !default;
+$teal: #006DAA !default;
+
+$colors: () !default;
+$colors: map-merge(
+  (
+    "blue": $blue,
+    "green": $green,
+    "teal": $teal,
+    "red": $red,
+    "yellow": $yellow,
+    "white": $white,
+    "gray": $gray-500,
+    "dark-gray": $gray-700,
+  ),
+  $colors
+);
+
+$accent-a: #00BBF9 !default;
+$accent-b: #FFEE88 !default;
+
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "brand":      $brand,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark,
+    "gray":       $gray-500,
+    "accent-a":   $accent-a,
+    "accent-b":   $accent-b,
+  ),
+  $theme-colors
+);
+
+$primary-100: mix(white, $primary,  94%) !default;
+$primary-200: mix(white, $primary,  75%) !default;
+$primary-300: mix(white, $primary,  50%) !default;
+$primary-400: mix(white, $primary,  25%) !default;
+$primary-500: $primary !default;
+$primary-600: mix(black, $primary,  10%) !default;
+$primary-700: mix(black, $primary,  20%) !default;
+$primary-800: mix(black, $primary,  25%) !default;
+$primary-900: mix(black, $primary,  30%) !default;
+
+$secondary-100: mix(white, $secondary,  94%) !default;
+$secondary-200: mix(white, $secondary,  75%) !default;
+$secondary-300: mix(white, $secondary,  50%) !default;
+$secondary-400: mix(white, $secondary,  25%) !default;
+$secondary-500: $secondary !default;
+$secondary-600: mix(black, $secondary,  10%) !default;
+$secondary-700: mix(black, $secondary,  20%) !default;
+$secondary-800: mix(black, $secondary,  25%) !default;
+$secondary-900: mix(black, $secondary,  30%) !default;
+
+$brand-100: mix(white, $brand,  94%) !default;
+$brand-200: mix(white, $brand,  75%) !default;
+$brand-300: mix(white, $brand,  50%) !default;
+$brand-400: mix(white, $brand,  25%) !default;
+$brand-500: $brand !default;
+$brand-600: mix(black, $brand,  10%) !default;
+$brand-700: mix(black, $brand,  20%) !default;
+$brand-800: mix(black, $brand,  25%) !default;
+$brand-900: mix(black, $brand,  30%) !default;
+
+$success-100: mix(white, $success,  94%) !default;
+$success-200: mix(white, $success,  75%) !default;
+$success-300: mix(white, $success,  50%) !default;
+$success-400: mix(white, $success,  25%) !default;
+$success-500: $success !default;
+$success-600: mix(black, $success,  10%) !default;
+$success-700: mix(black, $success,  20%) !default;
+$success-800: mix(black, $success,  25%) !default;
+$success-900: mix(black, $success,  30%) !default;
+
+$info-100: mix(white, $info,  94%) !default;
+$info-200: mix(white, $info,  75%) !default;
+$info-300: mix(white, $info,  50%) !default;
+$info-400: mix(white, $info,  25%) !default;
+$info-500: $info !default;
+$info-600: mix(black, $info,  10%) !default;
+$info-700: mix(black, $info,  20%) !default;
+$info-800: mix(black, $info,  25%) !default;
+$info-900: mix(black, $info,  30%) !default;
+
+$warning-100: mix(white, $warning,  94%) !default;
+$warning-200: mix(white, $warning,  75%) !default;
+$warning-300: mix(white, $warning,  50%) !default;
+$warning-400: mix(white, $warning,  25%) !default;
+$warning-500: $warning !default;
+$warning-600: mix(black, $warning,  10%) !default;
+$warning-700: mix(black, $warning,  20%) !default;
+$warning-800: mix(black, $warning,  25%) !default;
+$warning-900: mix(black, $warning,  30%) !default;
+
+$danger-100: mix(white, $danger,  94%) !default;
+$danger-200: mix(white, $danger,  75%) !default;
+$danger-300: mix(white, $danger,  50%) !default;
+$danger-400: mix(white, $danger,  25%) !default;
+$danger-500: $danger !default;
+$danger-600: mix(black, $danger,  10%) !default;
+$danger-700: mix(black, $danger,  20%) !default;
+$danger-800: mix(black, $danger,  25%) !default;
+$danger-900: mix(black, $danger,  30%) !default;
+
+$light-100: mix(white, $light,  94%) !default;
+$light-200: mix(white, $light,  75%) !default;
+$light-300: mix(white, $light,  50%) !default;
+$light-400: mix(white, $light,  25%) !default;
+$light-500: $light !default;
+$light-600: mix(black, $light,  10%) !default;
+$light-700: mix(black, $light,  20%) !default;
+$light-800: mix(black, $light,  25%) !default;
+$light-900: mix(black, $light,  30%) !default;
+
+$dark-100: mix(white, $dark,  94%) !default;
+$dark-200: mix(white, $dark,  75%) !default;
+$dark-300: mix(white, $dark,  50%) !default;
+$dark-400: mix(white, $dark,  25%) !default;
+$dark-500: $dark !default;
+$dark-600: mix(black, $dark,  10%) !default;
+$dark-700: mix(black, $dark,  20%) !default;
+$dark-800: mix(black, $dark,  25%) !default;
+$dark-900: mix(black, $dark,  30%) !default;
+
 $theme-color-levels: () !default;
 
 $theme-color-levels: map-merge(
