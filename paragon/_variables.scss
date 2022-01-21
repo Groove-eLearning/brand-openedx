@@ -57,6 +57,27 @@ $headings-color: $body-color !default;
 $input-btn-font-size: 0.938rem !default;
 $input-btn-focus-box-shadow: 0 0 6px $primary !default;
 
+$element-color-levels: () !default;
+
+$element-color-levels: map-merge(
+  (
+    "background": 100,
+    "disabled-border": 100,
+    "border": 200,
+    "icon": 300,
+    "active-border": 300,
+    "focus": 300,
+    "graphic": 300,
+    "default": 500,
+    "light-text": 500,
+    "hover": 700,
+    "text": 700,
+    "active": 900,
+    "dark-text": 900,
+  ),
+  $element-color-levels
+);
+
 
 // FORM VARIABLES
 
