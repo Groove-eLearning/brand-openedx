@@ -1,6 +1,31 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
+// FUNCTIONS
+
+@function theme-color($color-name: "primary", $variant: "default") {
+    $base-color: #808080 !default;
+    $color-level: 500 !default;
+
+    @if map-has-key($theme-colors, $color-name) {
+        $base-color: map-get($theme-colors, $color-name);
+    }
+
+    @if (type-of($variant)=='number') {
+        $color-level: $variant;
+    }
+
+    @else if (map-has-key($element-color-levels, $variant)) {
+        $color-level: map-get($element-color-levels, $variant);
+    }
+
+    @if map-has-key($theme-color-levels, "#{$color-name}-#{$color-level}") {
+        @return map-get($theme-color-levels, "#{$color-name}-#{$color-level}");
+    }
+
+    @return $base-color;
+}
+
 
 // ALERT
 
