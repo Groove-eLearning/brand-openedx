@@ -355,7 +355,7 @@ $element-color-levels: map-merge(
 );
 
 $component-active-color: $white !default;
-$component-active-bg: theme-color("primary") !default;
+$component-active-bg: $primary !default;
 
 // Grid breakpoints
 //
