@@ -370,11 +370,6 @@ $grid-breakpoints: (
   xl: 1200px
 ) !default;
 
-
-// FORM VARIABLES
-
-@import './components/form';
-
 // ALERT VARIABLES
 
 $alert-padding-y: 0.625rem !default;
@@ -444,3 +439,8 @@ $input-btn-border-width:      $border-width !default;
 
 // BUTTONS
 @import './components/button';
+
+
+// FORM VARIABLES
+
+@import './components/form';
