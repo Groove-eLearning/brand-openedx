@@ -354,8 +354,8 @@ $element-color-levels: map-merge(
   $element-color-levels
 );
 
-$component-active-color:      $white !default;
-$component-active-bg:         theme-color("primary") !default;
+$component-active-color: $white !default;
+$component-active-bg: theme-color("primary") !default;
 
 // Grid breakpoints
 //
@@ -373,9 +373,7 @@ $grid-breakpoints: (
 
 // FORM VARIABLES
 
-$input-border-color: $border-color !default;
-$input-color: $body-color !default;
-
+@import './components/form';
 
 // ALERT VARIABLES
 
@@ -445,4 +443,4 @@ $input-btn-border-width:      $border-width !default;
 
 
 // BUTTONS
-@import './components/button.scss';
+@import './components/button';
