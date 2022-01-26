@@ -19,7 +19,10 @@ $warning: #FFA850 !default;
 $light: #E1DDDB !default;
 $dark: #24305D !default;
 
-$body-color: $dark !default;
+$body-color: $dark !default; 
+$line-height-lg: 1.5 !default;
+$line-height-sm: 1.5 !default;
+$border-width: 1px !default;
 $border-color: #D3D8ED !default;
 $border-radius: 0.25rem !default;
 $text-muted: #ACB1CA !default;
@@ -346,6 +349,9 @@ $element-color-levels: map-merge(
   ),
   $element-color-levels
 );
+
+$component-active-color:      $white !default;
+$component-active-bg:         theme-color("primary") !default;
 
 // Grid breakpoints
 //
