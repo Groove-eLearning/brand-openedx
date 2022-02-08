@@ -35,6 +35,7 @@ $link-color: #0094e3 !default;
 
 $font-family-sans-serif: $fontFamily2;
 $font-family-monospace: $fontFamily2;
+$font-family-base: $font-family-sans-serif !default;
 
 $font-weight-lighter: lighter !default;
 $font-weight-light: 300 !default;
@@ -43,7 +44,15 @@ $font-weight-semi-bold: 500 !default;
 $font-weight-bold: 700 !default;
 $font-weight-bolder: bolder !default;
 
+$font-weight-base: $font-weight-normal !default;
+$headings-font-family: null !default;
+$line-height-base: 1.55555555555555 !default;
 $font-size-base: 0.938rem !default;
+$lead-font-size: $font-size-base * 1.25 !default;
+$lead2-font-size: $font-size-base * 1.75 !default;
+$small-font-size: 87.5% !default;
+$x-small-font-size: 75% !default;
+$micro-font-size: 0.688rem;
 
 $h1-font-size: 1.75rem !default;
 $h2-font-size: 1.5rem !default;
@@ -51,6 +60,9 @@ $h3-font-size: 1.063rem !default;
 $h4-font-size: 0.938rem !default;
 $h5-font-size: 0.938rem !default;
 $h6-font-size: 0.938rem !default;
+$h7-font-size: 0.938rem !default;
+$h8-font-size: 0.938rem !default;
+$h9-font-size: 0.938rem !default;
 
 $h1-mobile-font-size: $h1-font-size !default;
 $h2-mobile-font-size: $h2-font-size !default;
